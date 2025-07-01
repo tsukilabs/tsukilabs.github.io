@@ -1,0 +1,29 @@
+# Editor
+.idea/*
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Node
+node_modules
+dist
+
+# Vite
+**/*vite*timestamp*
+
+# Vitepress
+**/.vitepress/cache
+**/.vitepress/dist
+
+# Local files
+.env
+.env.*
+!.env.example
+workspace.md
+
+# Others
+.temp
+coverage
+.eslintcache
