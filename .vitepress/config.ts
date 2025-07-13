@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'Call of Nil',
   description: '',
-  lang: 'pt-BR',
+  lang: 'en-US',
   srcDir: 'src',
   outDir: 'dist',
   cleanUrls: true,
@@ -19,17 +19,6 @@ export default defineConfig({
       emptyOutDir: true,
       minify: true,
       target: 'es2015',
-    },
-  },
-
-  locales: {
-    root: {
-      label: 'Português',
-      lang: 'pt-BR',
-    },
-    'locale/en': {
-      label: 'English',
-      lang: 'en',
     },
   },
 

@@ -8,6 +8,6 @@ hero:
       text: Download
       link: https://github.com/tsukilabs/nil/releases/tag/latest
     - theme: alt
-      text: Repositório
+      text: Repository
       link: https://github.com/tsukilabs/nil
 ---
