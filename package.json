@@ -1,25 +1,24 @@
 {
   "name": "website",
   "type": "module",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.14.0",
   "license": "AGPL-3.0-only",
   "private": true,
   "scripts": {
     "build": "vitepress build",
     "dev": "vitepress dev",
-    "format": "prettier . --write",
+    "format": "dprint fmt",
     "preview": "vitepress preview"
   },
   "devDependencies": {
-    "@tb-dev/eslint-config": "^8.0.0",
-    "@tb-dev/utils": "^7.0.6",
-    "@vueuse/core": "^13.5.0",
-    "eslint": "^9.31.0",
-    "prettier": "^3.6.2",
+    "@tb-dev/eslint-config": "^8.0.4",
+    "@tb-dev/utils": "^7.0.10",
+    "@vueuse/core": "^13.6.0",
+    "eslint": "^9.33.0",
     "tslib": "^2.8.1",
-    "typescript": "~5.8.3",
-    "vite": "^7.0.5",
-    "vitepress": "^2.0.0-alpha.8",
-    "vue": "^3.5.17"
+    "typescript": "~5.9.2",
+    "vite": "^7.1.1",
+    "vitepress": "^2.0.0-alpha.10",
+    "vue": "^3.5.18"
   }
 }
