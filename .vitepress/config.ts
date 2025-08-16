@@ -18,7 +18,18 @@ export default defineConfig({
     build: {
       emptyOutDir: true,
       minify: true,
-      target: 'es2015',
+      target: 'baseline-widely-available',
+    },
+  },
+
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en-US',
+    },
+    'locale/pt': {
+      label: 'Português',
+      lang: 'pt-BR',
     },
   },
 
